@@ -32,16 +32,16 @@ Description: LightScribe System Software
  LightScribe System Software
 
 Package: lightscribeApplications
-Version: 1.18.6.1
+Version: 1.18.15.1
 Maintainer: Hewlett-Packard Company  
 Architecture: i386
 Priority: extra
 Section: graphics
-Filename: pool/non-free/l/lightscribeApplications/lightscribeApplications_1.18.6.1_i386.deb
-Size: 10044706
-SHA256: 394c77f248f0d6dbc7eb74be20009d0a30d03490af3f1c22bfa5e07daf3d93e4
-SHA1: 3cd16a69de4a56289ef9e699f8df73fb129a3f1e
-MD5sum: 53182aca4454c72b1c500f7744d393e7
+Filename: pool/non-free/l/lightscribeApplications/lightscribeApplications_1.18.15.1_i386.deb
+Size: 10044672
+SHA256: 7b21df61716e418358587673cffe01a7700db03445b5c0a47f8c198feb629b1a
+SHA1: 941599d6aa16d6588de621d29a33cb08f8d0cfbd
+MD5sum: 8babb2bfa7cc8dbf0c6825015a3cba82
 Description: LightScribe Applications  
  Copyright: 2006 by Hewlett-Packard Company, All Rights Reserved.  Company,
  LightScribe Applications, requires lightscribe system software available at http://www.lightscribe.com/go/downloads/linux   
