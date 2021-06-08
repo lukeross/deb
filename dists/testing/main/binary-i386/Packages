@@ -1,0 +1,72 @@
+Package: dpkg-find-cyclic-orphans
+Version: 1.2-1
+Architecture: all
+Maintainer: Luke Ross <luke@lukeross.name>
+Installed-Size: 13
+Depends: python3-apt, python3:any
+Priority: optional
+Section: python
+Filename: pool/main/d/dpkg-find-cyclic-orphans/dpkg-find-cyclic-orphans_1.2-1_all.deb
+Size: 3156
+SHA256: 222ee83b60e0ba9d560492fe9728a6629fb3e663c22a7f5ae3f5191fbfa8ec8a
+SHA1: bde3a1f2846446e0b9c808b70e2694743ede9b42
+MD5sum: ad3a2a3104bd14a85e903d165ac447bc
+Description: Find cyclic deb loops
+ Find deb packages which are not marked as auto-removable because they
+ participate in a circular dependency loop.
+
+Package: efistub-deb
+Version: 0.2-1
+Architecture: all
+Maintainer: Luke Ross <luke@lukeross.name>
+Installed-Size: 21
+Depends: bash, coreutils, efibootmgr, findutils, perl, util-linux
+Homepage: https://github.com/lukeross/efistub-deb
+Priority: optional
+Section: admin
+Filename: pool/main/e/efistub-deb/efistub-deb_0.2-1_all.deb
+Size: 3068
+SHA256: ac003da942d285d1373a92ed974436830c3eda5a1135f415be71b69e75c09092
+SHA1: e017efaf23fadf3429087ab628ad018185f37fa8
+MD5sum: 5060fe03e81e0da5d6be1cffc0941267
+Description: EFISTUB boot helper for Debian
+ Configures efibootmgr on kernel install, copies new initrd on rebuild,
+ removes entries on kernel removal.
+ This is adapted from the documentation at <https://wiki.debian.org/EFIStub>.
+
+Package: python3-pyftdi
+Source: pyftdi
+Version: 0.46.0-1
+Architecture: all
+Maintainer: Emmanuel Blot <emmanuel.blot@free.fr>
+Installed-Size: 405
+Depends: python3-serial, python3-usb, python3:any
+Homepage: http://github.com/eblot/pyftdi
+Priority: optional
+Section: python
+Filename: pool/main/p/pyftdi/python3-pyftdi_0.46.0-1_all.deb
+Size: 70616
+SHA256: f539e7890bfa391859ea516349cd9a105b936f69fefd9dd5bb5cb43d37016833
+SHA1: 2da0954411e68738a6188ab68aaf3fba7ee66286
+MD5sum: 82e8ebf92815640a7d9b5da219aaacd2
+Description: FTDI device driver (pure Python)
+ PyFtdi
+ ======
+ .
+ .. |I2C| replace:: I\ :sup:`2`\ C
+ .
+ Documentation
+ -------------
+ .
+ PyFtdi online documentation is available
+ `here <https://eblot.github.io/pyftdi>`_.
+ .
+ Source code
+ -----------
+ .
+ PyFtdi releases are available from the Python Package Index from
+ `PyPi <https://pypi.org/project/pyftdi>`_.
+ .
+ PyFtdi development code is available from
+ `GitHub <https://github.com/eblot/pyftdi>`_.
+
