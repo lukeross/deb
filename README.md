@@ -2,6 +2,10 @@
 
 Debian package repository
 
+```
+deb https://lukeross.github.io/deb/ testing main contrib non-free
+```
+
 ## Key
 
 ```
