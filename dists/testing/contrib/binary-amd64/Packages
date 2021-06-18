@@ -1,3 +1,72 @@
+Package: libdvdcss-dev
+Source: libdvdcss
+Version: 1.4.3-1
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 26
+Depends: libdvdcss2 (= 1.4.3-1)
+Conflicts: libdvdcss2-dev
+Replaces: libdvdcss2-dev
+Multi-Arch: same
+Homepage: https://www.videolan.org/developers/libdvdcss.html
+Priority: optional
+Section: libdevel
+Filename: pool/contrib/libd/libdvdcss/libdvdcss-dev_1.4.3-1_amd64.deb
+Size: 6820
+SHA256: a249257a5faf857818cab7357f34b5fd6ffefb29d6a97d9f1b81f9f4c9a68b66
+SHA1: 95792474817a34fbc1c15a5101eab05fba48b9a7
+MD5sum: fa26e8e7aa60b20f49a06b019144b2df
+Description: library for accessing encrypted DVDs - development files
+ libdvdcss is a library for accessing and unscrambling DVDs encrypted
+ with the Content Scramble System (CSS).
+ libdvdcss is part of the VideoLAN project.
+ .
+ This package provides development files.
+
+Package: libdvdcss2
+Source: libdvdcss
+Version: 1.4.3-1
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 62
+Depends: libc6 (>= 2.7)
+Replaces: libdvdcss-dev (<= 0.0.3-3), libdvdcss0 (<= 1.0.0-0.0), libdvdcss2-dev (<= 1.2.10-0.0)
+Provides: libdvdcss
+Multi-Arch: same
+Homepage: https://www.videolan.org/developers/libdvdcss.html
+Priority: optional
+Section: libs
+Filename: pool/contrib/libd/libdvdcss/libdvdcss2_1.4.3-1_amd64.deb
+Size: 22812
+SHA256: 380ce5197ac7c3a4d0f961283aadedceca49410751646bf4c88a8dc0df48d3c6
+SHA1: 063179a0b7c8600ae488d9453d18dee36aacca5c
+MD5sum: 9d0bcda03b15ed98e66506c2b1927eb8
+Description: library for accessing encrypted DVDs
+ libdvdcss is a library for accessing and unscrambling DVDs encrypted
+ with the Content Scramble System (CSS).
+ libdvdcss is part of the VideoLAN project.
+ .
+ This package provides runtime libraries.
+
+Package: libdvdcss2-dbgsym
+Source: libdvdcss
+Version: 1.4.3-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Dmitry Smirnov <onlyjob@debian.org>
+Installed-Size: 54
+Depends: libdvdcss2 (= 1.4.3-1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/contrib/libd/libdvdcss/libdvdcss2-dbgsym_1.4.3-1_amd64.deb
+Size: 39232
+SHA256: d447bbde6e613099b919a66b0dd6f7bea6e1ecba021294752e867c670a433007
+SHA1: f38455de6120f91dc8427ae04464e7fa1bdb492a
+MD5sum: ae76fa5b0d6a8e4457fee089fc9e0695
+Description: debug symbols for libdvdcss2
+Build-Ids: d04527cdd4137b3f933e511e389aa9bd7c29fe49
+
 Package: mencoder
 Source: mplayer
 Version: 2:1.4+lukeross-2

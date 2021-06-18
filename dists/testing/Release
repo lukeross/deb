@@ -1,5 +1,5 @@
 Codename: testing
-Date: Tue, 08 Jun 2021 18:04:47 UTC
+Date: Fri, 18 Jun 2021 12:25:45 UTC
 Architectures: i386 amd64
 Components: main contrib non-free
 MD5Sum:
@@ -12,8 +12,8 @@ MD5Sum:
  ca1c61c7d99872f3fef4a9d448c83f67 837 contrib/binary-i386/Packages
  6f28d824fb763a02920bd3e24b513bd0 537 contrib/binary-i386/Packages.gz
  f4f1d35d5acf5db5dd240529daa71b13 38 contrib/binary-i386/Release
- e935df3807de84826c8d931b57c1f207 10273 contrib/binary-amd64/Packages
- c714c1059d39320279dbd2d20e083d70 2834 contrib/binary-amd64/Packages.gz
+ e5395b5fab136bf6b8f797dfede66734 12621 contrib/binary-amd64/Packages
+ 4c6d5eb9699ae2cb8d11c386dd24ad1d 3514 contrib/binary-amd64/Packages.gz
  21e46a380626854677b4f15e48077399 39 contrib/binary-amd64/Release
  c258c3552133620386fc9516461b29ec 1975 non-free/binary-i386/Packages
  cf670b191d5705cafbee0160c8a125a9 956 non-free/binary-i386/Packages.gz
@@ -31,8 +31,8 @@ SHA1:
  d44beea0b127254a20078fb17e10f7570c4e1d59 837 contrib/binary-i386/Packages
  6b446a5ea26fc077f6c3047aa206ad3349ec3e58 537 contrib/binary-i386/Packages.gz
  cef7771af0b90f76c80fd1bac651b8203b1db8ec 38 contrib/binary-i386/Release
- db3f2f4e42db08774059350fe9d7bfdc4116dfe2 10273 contrib/binary-amd64/Packages
- 5a6f9ada8086f4182ffad935c5439860fbba2bc2 2834 contrib/binary-amd64/Packages.gz
+ 0c4742e1a98a2f486e6955ad42541044c253f6ff 12621 contrib/binary-amd64/Packages
+ 13b887ec982ff18fa1923187600ff249ac94f3f5 3514 contrib/binary-amd64/Packages.gz
  540444e2ba50eed843abd0f7c98f2a03736190f3 39 contrib/binary-amd64/Release
  49e262cffa34f473312e036ae2a79d22b5412487 1975 non-free/binary-i386/Packages
  1691020b05a59aed4fe1349e9fb5ae539b65044d 956 non-free/binary-i386/Packages.gz
@@ -50,8 +50,8 @@ SHA256:
  130385270b541384d0615587fe9f35108a759a44d3698df53494cf966cb69707 837 contrib/binary-i386/Packages
  ca39d08a3b00499c7366eabe66721fb3de369ee6d5e26fd8aa89d8983eb8b1d8 537 contrib/binary-i386/Packages.gz
  7cf3276b1440afeebfed9eafed5e2f0e7eaa3c6a3bfaa9210f02553b639c94a0 38 contrib/binary-i386/Release
- 35b64feab0055e86de184f10e24c9f55f26b10f469cc32586a784a25da194801 10273 contrib/binary-amd64/Packages
- a66cddee7f8c44efdc35591e51777f04b3696c413dba1fa326a745a9cec95b04 2834 contrib/binary-amd64/Packages.gz
+ 2955a27fc551381b0147af5b860a4ea65a38e05f7f06281fdb2147ed420d164a 12621 contrib/binary-amd64/Packages
+ 200e9a4a90b9ad40e2ae5d200cfae1497249875ffe9272109df2e8fce647a1ab 3514 contrib/binary-amd64/Packages.gz
  d3365c86c0c42a0175c5a919fa6e443e515f6b8267dbd175f6fc7f2d45338215 39 contrib/binary-amd64/Release
  0f60d3b34e31b9e1e067e4a4a697ac2e9a8d6fbc8b17c7aa82eeb5745e5cc595 1975 non-free/binary-i386/Packages
  21c78c919bfb73524a559428777e8a69df9404062688a16c08bc26830b4fb3b5 956 non-free/binary-i386/Packages.gz
