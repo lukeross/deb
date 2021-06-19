@@ -50,6 +50,9 @@ testing|main|amd64: dpkg-find-cyclic-orphans 1.2-1
 testing|main|amd64: efistub-deb 0.2-1
 testing|main|amd64: python3-pyftdi 0.46.0-1
 testing|contrib|i386: mplayer-doc 2:1.4+lukeross-2
+testing|contrib|amd64: libdvdcss-dev 1.4.3-1
+testing|contrib|amd64: libdvdcss2 1.4.3-1
+testing|contrib|amd64: libdvdcss2-dbgsym 1.4.3-1
 testing|contrib|amd64: mencoder 2:1.4+lukeross-2
 testing|contrib|amd64: mencoder-dbgsym 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer 2:1.4+lukeross-2
