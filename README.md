@@ -45,10 +45,8 @@ Z2F77m2V1/Cjqg0nMkpY3VqBHa8j6gVB+Wlj7kOJv4+5EyB903wEee0=
 ```
 testing|main|i386: dpkg-find-cyclic-orphans 1.2-1
 testing|main|i386: efistub-deb 0.2-1
-testing|main|i386: python3-pyftdi 0.46.0-1
 testing|main|amd64: dpkg-find-cyclic-orphans 1.2-1
 testing|main|amd64: efistub-deb 0.2-1
-testing|main|amd64: python3-pyftdi 0.46.0-1
 testing|contrib|i386: mplayer-doc 2:1.4+lukeross-2
 testing|contrib|amd64: libdvdcss-dev 1.4.3-1
 testing|contrib|amd64: libdvdcss2 1.4.3-1
@@ -60,6 +58,7 @@ testing|contrib|amd64: mplayer-dbgsym 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer-doc 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer-gui 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer-gui-dbgsym 2:1.4+lukeross-2
+testing|contrib|amd64: python3-ftdi 0.52.9-4
 testing|non-free|i386: 4l 1.0-r6
 testing|non-free|i386: lightscribe 1.18.27.10
 testing|non-free|i386: lightscribeApplications 1.18.15.1
