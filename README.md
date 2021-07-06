@@ -1,10 +1,14 @@
 # deb
 
-Debian package repository
+[Debian](http://debian.org/) package repository
 
 ```
 deb https://lukeross.github.io/deb/ testing main contrib non-free
 ```
+
+- `main` contains packages that aren't packaged in Debian
+- `contrib` contains packages in Debian that are either patched (mplayer) or missing in testing (python3-ftdi) or because I don't want to pull in the extra dependencies (libdvdcss)
+- `non-free` contains non-free, binary-only packages that aren't in Debian
 
 ## Key
 
@@ -63,3 +67,11 @@ testing|non-free|i386: 4l 1.0-r6
 testing|non-free|i386: lightscribe 1.18.27.10
 testing|non-free|i386: lightscribeApplications 1.18.15.1
 ```
+
+## Source links
+
+- [dpkg-find-cyclic-orphans](https://github.com/lukeross/scripts/tree/master/FindDebCyclicOrphans)
+- [eftstub-deb](https://github.com/lukeross/efistub-deb)
+- [libdvdcss](https://www.videolan.org/developers/libdvdcss.html)
+- [mplayer](https://github.com/lukeross/mplayer)
+- [python3-ftdi](https://packages.debian.org/source/sid/pyftdi)
