@@ -34,3 +34,42 @@ Description: EFISTUB boot helper for Debian
  removes entries on kernel removal.
  This is adapted from the documentation at <https://wiki.debian.org/EFIStub>.
 
+Package: libdvd-audio1
+Source: libdvd-audio
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Luke Ross <luke@lukeross.uk>
+Installed-Size: 3126
+Depends: libc6 (>= 2.33)
+Multi-Arch: same
+Homepage: https://libdvd-audio.sourceforge.io/
+Priority: optional
+Section: main
+Filename: pool/main/libd/libdvd-audio/libdvd-audio1_1.0.0-1_amd64.deb
+Size: 135972
+SHA256: c5f97b10c8b00c2b22356e0599d5cc8f024422b99e3e2fb6cd8971ee8d7caf40
+SHA1: 04afa21af5c04d0e341ad4636252f99a6ff559b6
+MD5sum: da710de3484efbbff768d2499e9b958f
+Description: Library for extracting audio from DVD-Audio discs, analogous to libcdio.
+ It provides a simple C API and two small example utilities to demonstrate its
+ use.
+
+Package: libdvd-audio1-dbgsym
+Source: libdvd-audio
+Version: 1.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Luke Ross <luke@lukeross.uk>
+Installed-Size: 780
+Depends: libdvd-audio1 (= 1.0.0-1)
+Multi-Arch: same
+Priority: optional
+Section: main
+Filename: pool/main/libd/libdvd-audio/libdvd-audio1-dbgsym_1.0.0-1_amd64.deb
+Size: 672524
+SHA256: 5ce42eda6e19f73f40d4a5a2f203eb7af076a8b711d48913d79454dedc1f0adb
+SHA1: 2456617aa5dfbdf8550da052c1b3c709b567265a
+MD5sum: d85d476997c35999190b83e83777682d
+Description: debug symbols for libdvd-audio1
+Build-Ids: 00adc02e4fb1cd790eff22628d494a899e3bb0ac 0ef4870078c48c590898bca379fe796286db9847 888ae637eb4e76e29fdabd933c84da33165a73d8
+
