@@ -232,29 +232,3 @@ MD5sum: 9ad791c5cd85b0d839218e9c421118a0
 Description: debug symbols for mplayer-gui
 Build-Ids: 4e61733882862b5884e78265334c5b787308a80e
 
-Package: python3-ftdi
-Source: pyftdi
-Version: 0.52.9-4
-Architecture: amd64
-Maintainer: Debian Electronics Team <pkg-electronics-devel@alioth-lists.debian.net>
-Installed-Size: 522
-Depends: python3-serial, python3-usb, python3:any
-Homepage: https://github.com/rm-hull/ftdi
-Priority: optional
-Section: python
-Filename: pool/contrib/p/pyftdi/python3-ftdi_0.52.9-4_amd64.deb
-Size: 95704
-SHA256: f7a7f6f71257a53f37013d225c1c7d79ac4afcf02aea95ec9dd32ba7af5d6ea2
-SHA1: 24e37980b44945b3f75b42fcd1bb64ce281e0b2c
-MD5sum: 8e17c84183de2abf4fbe61c1246db7f9
-Description: user-space driver for popular FTDI devices
- Suported FTDI devices include:
-  UART and GPIO bridges
-      FT232R (single port, 3Mbps)
-      FT230X/FT231X/FT234X/ (single port, 3Mbps)
-  UART, GPIO and multi-serial protocols (SPI, I2C, JTAG) bridges
-      FT2232C/D (dual port, clock up to 6 MHz)
-      FT232H (single port, clock up to 30 MHz)
-      FT2232H (dual port, clock up to 30 MHz)
-      FT4232H (quad port, clock up to 30 MHz)
-

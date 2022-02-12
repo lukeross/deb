@@ -7,7 +7,7 @@ deb https://lukeross.github.io/deb/ testing main contrib non-free
 ```
 
 - `main` contains packages that aren't packaged in Debian
-- `contrib` contains packages in Debian that are either patched (mplayer) or missing in testing (python3-ftdi) or because I don't want to pull in the extra dependencies (libdvdcss)
+- `contrib` contains packages in Debian that are either patched (mplayer) or because I don't want to pull in the extra dependencies (libdvdcss)
 - `non-free` contains non-free, binary-only packages that aren't in Debian
 
 ## Key
@@ -64,7 +64,6 @@ testing|contrib|amd64: mplayer-dbgsym 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer-doc 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer-gui 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer-gui-dbgsym 2:1.4+lukeross-2
-testing|contrib|amd64: python3-ftdi 0.52.9-4
 testing|non-free|i386: 4l 1.0-r6
 testing|non-free|i386: lightscribe 1.18.27.10
 testing|non-free|i386: lightscribeApplications 1.18.15.1
@@ -74,7 +73,6 @@ testing|non-free|i386: lightscribeApplications 1.18.15.1
 
 - [dpkg-find-cyclic-orphans](https://github.com/lukeross/scripts/tree/master/FindDebCyclicOrphans)
 - [eftstub-deb](https://github.com/lukeross/efistub-deb)
-- [libdvdaudio](https://libdvd-audio.sourceforge.io/)
+- [libdvd-audio](https://libdvd-audio.sourceforge.io/)
 - [libdvdcss](https://www.videolan.org/developers/libdvdcss.html)
 - [mplayer](https://github.com/lukeross/mplayer)
-- [python3-ftdi](https://packages.debian.org/source/sid/pyftdi)
