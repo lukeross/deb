@@ -64,6 +64,9 @@ testing|contrib|amd64: mplayer-dbgsym 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer-doc 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer-gui 2:1.4+lukeross-2
 testing|contrib|amd64: mplayer-gui-dbgsym 2:1.4+lukeross-2
+testing|contrib|amd64: parole 4.16.0-lukeross1
+testing|contrib|amd64: parole-dbgsym 4.16.0-lukeross1
+testing|contrib|amd64: parole-dev 4.16.0-lukeross1
 testing|non-free|i386: 4l 1.0-r6
 testing|non-free|i386: lightscribe 1.18.27.10
 testing|non-free|i386: lightscribeApplications 1.18.15.1
@@ -76,3 +79,4 @@ testing|non-free|i386: lightscribeApplications 1.18.15.1
 - [libdvd-audio](https://libdvd-audio.sourceforge.io/)
 - [libdvdcss](https://www.videolan.org/developers/libdvdcss.html)
 - [mplayer](https://github.com/lukeross/mplayer)
+- [parole](https://github.com/lukeross/parole/tree/vaapi)
