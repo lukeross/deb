@@ -7,7 +7,7 @@ deb https://lukeross.github.io/deb/ testing main contrib non-free
 ```
 
 - `main` contains packages that aren't packaged in Debian
-- `contrib` contains packages in Debian that are either patched (mplayer) or because I don't want to pull in the extra dependencies (libdvdcss)
+- `contrib` contains packages in Debian that are either patched (parole) or because I don't want to pull in the extra dependencies (libdvdcss)
 - `non-free` contains non-free, binary-only packages that aren't in Debian
 
 ## Key
@@ -53,17 +53,9 @@ testing|main|amd64: dpkg-find-cyclic-orphans 1.2-1
 testing|main|amd64: efistub-deb 0.2-1
 testing|main|amd64: libdvd-audio1 1.0.0-1
 testing|main|amd64: libdvd-audio1-dbgsym 1.0.0-1
-testing|contrib|i386: mplayer-doc 2:1.4+lukeross-2
 testing|contrib|amd64: libdvdcss-dev 1.4.3-1
 testing|contrib|amd64: libdvdcss2 1.4.3-1
 testing|contrib|amd64: libdvdcss2-dbgsym 1.4.3-1
-testing|contrib|amd64: mencoder 2:1.4+lukeross-2
-testing|contrib|amd64: mencoder-dbgsym 2:1.4+lukeross-2
-testing|contrib|amd64: mplayer 2:1.4+lukeross-2
-testing|contrib|amd64: mplayer-dbgsym 2:1.4+lukeross-2
-testing|contrib|amd64: mplayer-doc 2:1.4+lukeross-2
-testing|contrib|amd64: mplayer-gui 2:1.4+lukeross-2
-testing|contrib|amd64: mplayer-gui-dbgsym 2:1.4+lukeross-2
 testing|contrib|amd64: parole 4.16.0-lukeross1
 testing|contrib|amd64: parole-dbgsym 4.16.0-lukeross1
 testing|contrib|amd64: parole-dev 4.16.0-lukeross1
@@ -78,5 +70,4 @@ testing|non-free|i386: lightscribeApplications 1.18.15.1
 - [eftstub-deb](https://github.com/lukeross/efistub-deb)
 - [libdvd-audio](https://libdvd-audio.sourceforge.io/)
 - [libdvdcss](https://www.videolan.org/developers/libdvdcss.html)
-- [mplayer](https://github.com/lukeross/mplayer)
 - [parole](https://github.com/lukeross/parole/tree/vaapi)
