@@ -71,6 +71,7 @@ jksz3w==
 
 ```
 testing|main|i386: dpkg-find-cyclic-orphans 1.2-1
+testing|main|i386: efihelper 1.2-1
 testing|main|i386: efistub-deb 0.2-1
 testing|main|amd64: dpkg-find-cyclic-orphans 1.2-1
 testing|main|amd64: efistub-deb 0.2-1
@@ -90,6 +91,7 @@ testing|non-free|i386: lightscribeApplications 1.18.15.1
 ## Source links
 
 - [dpkg-find-cyclic-orphans](https://github.com/lukeross/scripts/tree/master/FindDebCyclicOrphans)
+- [efihelper](https://github.com/discover02/debianefihelper)
 - [eftstub-deb](https://github.com/lukeross/efistub-deb)
 - [libdvd-audio](https://libdvd-audio.sourceforge.io/)
 - [libdvdcss](https://www.videolan.org/developers/libdvdcss.html)
