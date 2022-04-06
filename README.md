@@ -72,9 +72,8 @@ jksz3w==
 ```
 testing|main|i386: dpkg-find-cyclic-orphans 1.2-1
 testing|main|i386: efihelper 1.2-1
-testing|main|i386: efistub-deb 0.2-1
 testing|main|amd64: dpkg-find-cyclic-orphans 1.2-1
-testing|main|amd64: efistub-deb 0.2-1
+testing|main|amd64: efihelper 1.2-1
 testing|main|amd64: libdvd-audio1 1.0.0-1
 testing|main|amd64: libdvd-audio1-dbgsym 1.0.0-1
 testing|contrib|amd64: libdvdcss-dev 1.4.3-1
@@ -92,7 +91,6 @@ testing|non-free|i386: lightscribeApplications 1.18.15.1
 
 - [dpkg-find-cyclic-orphans](https://github.com/lukeross/scripts/tree/master/FindDebCyclicOrphans)
 - [efihelper](https://github.com/discover02/debianefihelper)
-- [eftstub-deb](https://github.com/lukeross/efistub-deb)
 - [libdvd-audio](https://libdvd-audio.sourceforge.io/)
 - [libdvdcss](https://www.videolan.org/developers/libdvdcss.html)
 - [parole](https://github.com/lukeross/parole/tree/vaapi)

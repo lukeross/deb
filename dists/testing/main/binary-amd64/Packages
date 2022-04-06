@@ -33,25 +33,6 @@ SHA1: 31170c6455f5c643c0db0497d0072f932a20ecd4
 MD5sum: 8766463d3ed9459b82354fab36aef87f
 Description: Boot manager assistant on Debian and Ubuntu based systems
 
-Package: efistub-deb
-Version: 0.2-1
-Architecture: all
-Maintainer: Luke Ross <luke@lukeross.name>
-Installed-Size: 21
-Depends: bash, coreutils, efibootmgr, findutils, perl, util-linux
-Homepage: https://github.com/lukeross/efistub-deb
-Priority: optional
-Section: admin
-Filename: pool/main/e/efistub-deb/efistub-deb_0.2-1_all.deb
-Size: 3068
-SHA256: ac003da942d285d1373a92ed974436830c3eda5a1135f415be71b69e75c09092
-SHA1: e017efaf23fadf3429087ab628ad018185f37fa8
-MD5sum: 5060fe03e81e0da5d6be1cffc0941267
-Description: EFISTUB boot helper for Debian
- Configures efibootmgr on kernel install, copies new initrd on rebuild,
- removes entries on kernel removal.
- This is adapted from the documentation at <https://wiki.debian.org/EFIStub>.
-
 Package: libdvd-audio1
 Source: libdvd-audio
 Version: 1.0.0-1
