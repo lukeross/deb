@@ -94,3 +94,4 @@ testing|non-free|i386: lightscribeApplications 1.18.15.1
 - [libdvd-audio](https://libdvd-audio.sourceforge.io/)
 - [libdvdcss](https://www.videolan.org/developers/libdvdcss.html)
 - [parole](https://github.com/lukeross/parole/tree/vaapi)
+- [selphy-go](https://github.com/tbleher/selphy_go)

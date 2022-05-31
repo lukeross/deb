@@ -72,3 +72,21 @@ MD5sum: d85d476997c35999190b83e83777682d
 Description: debug symbols for libdvd-audio1
 Build-Ids: 00adc02e4fb1cd790eff22628d494a899e3bb0ac 0ef4870078c48c590898bca379fe796286db9847 888ae637eb4e76e29fdabd933c84da33165a73d8
 
+Package: selphy-go
+Version: 0.0~git20181003.fcdf0ea-1
+Architecture: amd64
+Maintainer: Luke Ross <luke@lukeross.uk>
+Installed-Size: 2368
+Depends: libc6 (>= 2.3.2)
+Homepage: https://github.com/tbleher/selphy_go
+Priority: optional
+Section: net
+Filename: pool/main/s/selphy-go/selphy-go_0.0~git20181003.fcdf0ea-1_amd64.deb
+Size: 797836
+SHA256: 92918079da5b4547521caca4a0a1ac095b400a44d458a5fc38f8ca190644dbbd
+SHA1: 7368563c7fb51a29032666efe3616c9c0950e69b
+MD5sum: dddfb71576430898a575ee249dfcdd64
+Description: Print to Canon Selphy CP900 photo printers via WiFi
+ A simple client implementation of the CPNP protocol used by the
+ Canon Selphy CP-900 printer, and possibly others.
+
