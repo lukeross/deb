@@ -1,4 +1,4 @@
 Codename: testing
-Components: main contrib non-free
-Architectures: i386 amd64
+Components: main contrib
+Architectures: amd64
 SignWith: BBEF73BD84E25B3F5E4A73FCC94F0158E00233A9

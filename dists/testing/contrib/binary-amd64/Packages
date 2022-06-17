@@ -48,25 +48,6 @@ Description: library for accessing encrypted DVDs
  .
  This package provides runtime libraries.
 
-Package: libdvdcss2-dbgsym
-Source: libdvdcss
-Version: 1.4.3-1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Dmitry Smirnov <onlyjob@debian.org>
-Installed-Size: 54
-Depends: libdvdcss2 (= 1.4.3-1)
-Multi-Arch: same
-Priority: optional
-Section: debug
-Filename: pool/contrib/libd/libdvdcss/libdvdcss2-dbgsym_1.4.3-1_amd64.deb
-Size: 39232
-SHA256: d447bbde6e613099b919a66b0dd6f7bea6e1ecba021294752e867c670a433007
-SHA1: f38455de6120f91dc8427ae04464e7fa1bdb492a
-MD5sum: ae76fa5b0d6a8e4457fee089fc9e0695
-Description: debug symbols for libdvdcss2
-Build-Ids: d04527cdd4137b3f933e511e389aa9bd7c29fe49
-
 Package: parole
 Version: 4.16.0-lukeross1
 Architecture: amd64
@@ -90,24 +71,6 @@ Description: media player based on GStreamer framework
  support, DVD/CD and live streams; it is also extensible via plugins.
  .
  This package contains Parole media player.
-
-Package: parole-dbgsym
-Source: parole
-Version: 4.16.0-lukeross1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
-Installed-Size: 574
-Depends: parole (= 4.16.0-lukeross1)
-Priority: optional
-Section: debug
-Filename: pool/contrib/p/parole/parole-dbgsym_4.16.0-lukeross1_amd64.deb
-Size: 455384
-SHA256: 918df924ae8370a84c167a60b4ca6b1598ab4782edf4eb263b257948fd028643
-SHA1: 4044a465983d11d6507d48fde6aebb6a465aa05c
-MD5sum: 5df27be1f546632a85d5daa25ba6479b
-Description: debug symbols for parole
-Build-Ids: 4a974ad7204c06071f82c414046aa0a0bcacfb2e 59316d7a8c10a235d89af5f5bff6eb83bf09c978 e029e01ff881fe4afa47bc9e42258d509d85ad21 eac2c9d1d0979522a52c83782bdbac524f86499c
 
 Package: parole-dev
 Source: parole
