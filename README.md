@@ -3,7 +3,7 @@
 [Debian](http://debian.org/) package repository
 
 ```
-deb https://lukeross.github.io/deb/ testing main contrib non-free
+deb https://lukeross.github.io/deb/ testing main contrib
 ```
 
 - `main` contains packages that aren't packaged in Debian
