@@ -43,7 +43,7 @@ Depends: libc6 (>= 2.33)
 Multi-Arch: same
 Homepage: https://libdvd-audio.sourceforge.io/
 Priority: optional
-Section: main
+Section: sound
 Filename: pool/main/libd/libdvd-audio/libdvd-audio1_1.0.0-1_amd64.deb
 Size: 135972
 SHA256: c5f97b10c8b00c2b22356e0599d5cc8f024422b99e3e2fb6cd8971ee8d7caf40
