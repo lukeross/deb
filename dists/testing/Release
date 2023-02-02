@@ -1,25 +1,25 @@
 Codename: testing
-Date: Thu, 23 Jun 2022 17:27:58 UTC
+Date: Thu, 02 Feb 2023 10:37:08 UTC
 Architectures: amd64
 Components: main contrib
 MD5Sum:
  315b01cd1621445734f00315c05b1d46 2598 main/binary-amd64/Packages
  0eaddb8ff25c6527b9966c144c5aa437 1262 main/binary-amd64/Packages.gz
  063287201b2354699acfe229a752201d 36 main/binary-amd64/Release
- 70f188c3dd772d4d7788dfacd0d4f2ff 4112 contrib/binary-amd64/Packages
- 06809c06cfbc0b7400a87553a55cf036 1484 contrib/binary-amd64/Packages.gz
+ 07b3dea849d5f9eea0c841223433861c 1740 contrib/binary-amd64/Packages
+ b482c1e4993b64c95226cc45e248bfc3 730 contrib/binary-amd64/Packages.gz
  21e46a380626854677b4f15e48077399 39 contrib/binary-amd64/Release
 SHA1:
  a118e429d9d2774d3c928ec9b2a1f27b40453a20 2598 main/binary-amd64/Packages
  fc4ce1a492df302fd6b7aa31993ba0f875ef1e7f 1262 main/binary-amd64/Packages.gz
  f9082edea14092794f38390390e06abf8a922f7d 36 main/binary-amd64/Release
- be8583cdfbfbb2721368e1a8437b52fbe9dc5087 4112 contrib/binary-amd64/Packages
- 210707ff8b263ab3f44d6bf600bfce76b6d37f29 1484 contrib/binary-amd64/Packages.gz
+ 5c6de2524cf98c15773a9ea182c3a99aef94664d 1740 contrib/binary-amd64/Packages
+ 60c11cd4337f5d3c4427441778a247197f0cdcc5 730 contrib/binary-amd64/Packages.gz
  540444e2ba50eed843abd0f7c98f2a03736190f3 39 contrib/binary-amd64/Release
 SHA256:
  88cefb6b35ffd2a53019fa1d2fc53edd86cbd2b7d9ca3b4b8f4c4e5dc3b3d588 2598 main/binary-amd64/Packages
  df8e8a02a135fb9beea12e335254aeab80da2b3bdf063d1e47273369cdf517a6 1262 main/binary-amd64/Packages.gz
  f4aafa353a338baedf9e98523c13d7ffeda979ec3cf745f9fad977dd770595c8 36 main/binary-amd64/Release
- b2dc0d6a09bc09fee27e849578608075572a0e4875e227fe37e27d8cfa08f3c2 4112 contrib/binary-amd64/Packages
- 0be67c8da666fdb6542302d3f52d57871edc3d3d05de64f829f264754330c119 1484 contrib/binary-amd64/Packages.gz
+ e101d44f8bc2a9edcaa5f60e1ac20cd5fb75fb307c1cd9ab58d35468e10a2183 1740 contrib/binary-amd64/Packages
+ de0e65ec8c914b9756fb25d4b357ac12282e3dd549ac5ff53cb52cfb216d62ba 730 contrib/binary-amd64/Packages.gz
  d3365c86c0c42a0175c5a919fa6e443e515f6b8267dbd175f6fc7f2d45338215 39 contrib/binary-amd64/Release
