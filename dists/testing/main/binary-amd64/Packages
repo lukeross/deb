@@ -53,6 +53,24 @@ Description: Library for extracting audio from DVD-Audio discs, analogous to lib
  It provides a simple C API and two small example utilities to demonstrate its
  use.
 
+Package: python3-ippserver
+Source: ippserver
+Version: 0.2-1
+Architecture: all
+Maintainer: None <None>
+Installed-Size: 69
+Depends: python3-requests, python3:any
+Homepage: http://github.com/h2g2bob/ipp-server
+Priority: optional
+Section: net
+Filename: pool/main/i/ippserver/python3-ippserver_0.2-1_all.deb
+Size: 12268
+SHA256: f63d329a4fb58c464ddd94d01837def85f807dddc87c0f19dec52d7ecf5d0e56
+SHA1: ac9ddae13754888e63857d5f240a58dbaad83337
+MD5sum: 1fcc61892121f7c8c8b9540ff2d01655
+Description: An IPP server which acts like a printer
+ A module which implements enough of IPP to fool CUPS into thinking it is a real printer.
+
 Package: selphy-go
 Version: 0.0~git20181003.fcdf0ea-1
 Architecture: amd64
