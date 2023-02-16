@@ -71,6 +71,24 @@ MD5sum: 1fcc61892121f7c8c8b9540ff2d01655
 Description: An IPP server which acts like a printer
  A module which implements enough of IPP to fool CUPS into thinking it is a real printer.
 
+Package: python3-ippserver-selphy
+Source: ippserver-selphy
+Version: 0.1-1
+Architecture: all
+Maintainer: None <None>
+Installed-Size: 21
+Depends: python3:any
+Homepage: https://github.com/lukeross/scripts/tree/master/SelphyIPP
+Priority: optional
+Section: net
+Filename: pool/main/i/ippserver-selphy/python3-ippserver-selphy_0.1-1_all.deb
+Size: 4184
+SHA256: 8378078fc6b11e89cb5afaf5b0d0f035009e9382a0f1c397590caab62791c34a
+SHA1: 071d1b2c6c1c56075c057151919da0dde78df365
+MD5sum: a2f1be4edb85f8eab028fef2f54d07d6
+Description: Selphy CP900 handler for ipp-server
+ Backend for ipp-server that can handle PDFs or JPEGs for conversion and passing to selphy-go
+
 Package: selphy-go
 Version: 0.0~git20181003.fcdf0ea-1
 Architecture: amd64
