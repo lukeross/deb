@@ -72,11 +72,11 @@ jksz3w==
 testing|main|amd64: dpkg-find-cyclic-orphans 1.2-1
 testing|main|amd64: efihelper 1.2-1
 testing|main|amd64: libdvd-audio1 1.0.0-1
+testing|main|amd64: python3-ippserver 0.2-1
+testing|main|amd64: python3-ippserver-selphy 0.1-1
 testing|main|amd64: selphy-go 0.0~git20181003.fcdf0ea-1
 testing|contrib|amd64: libdvdcss-dev 1.4.3-1
 testing|contrib|amd64: libdvdcss2 1.4.3-1
-testing|contrib|amd64: parole 4.16.0-lukeross1
-testing|contrib|amd64: parole-dev 4.16.0-lukeross1
 ```
 
 ## Source links
@@ -85,5 +85,6 @@ testing|contrib|amd64: parole-dev 4.16.0-lukeross1
 - [efihelper](https://github.com/discover02/debianefihelper)
 - [libdvd-audio](https://libdvd-audio.sourceforge.io/)
 - [libdvdcss](https://www.videolan.org/developers/libdvdcss.html)
-- [parole](https://github.com/lukeross/parole/tree/vaapi)
+- [python3-ippserver](https://github.com/h2g2bob/ipp-server/)
+- [python3-ippserver-selphy](https://github.com/lukeross/scripts/tree/master/SelphyIPP)
 - [selphy-go](https://github.com/tbleher/selphy_go)
